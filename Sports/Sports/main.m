@@ -18,5 +18,12 @@ int main(int argc, const char * argv[]) {
     for (id sport in sports) {
         NSLog(@"%@",sport);
     }
+    
+    NSDictionary *sportsEmojis = @{@"Basketball": @"🏀", @"Curling": @"🎯", @"Baseball": @"⚾️", @"Volleyball": @"🏐"};
+    
+    for (id sport in sports) {
+        NSLog(@"%@", sportsEmojis[sport]);
+    }
+    
     return 0;
 }
