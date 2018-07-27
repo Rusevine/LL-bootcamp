@@ -9,7 +9,10 @@
 #import <Foundation/Foundation.h>
 
 int main(int argc, const char * argv[]) {
-    NSArray *sports = @[@"Basketball",@"Curling",@"Baseball",@"Volleyball"];
-    NSLog(@"%@",sports[1]);
+    NSMutableArray *sports = [[NSMutableArray alloc] initWithObjects:@"Basketball",@"Curling",@"Baseball",@"Volleyball",nil];
+    [sports removeLastObject];
+    [sports insertObject:@"Volleyball" atIndex:0];
+    NSLog(@"%@",sports[3]);
+    NSLog(@"%@",sports[0]);
     return 0;
 }
