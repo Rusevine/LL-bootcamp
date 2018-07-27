@@ -14,5 +14,9 @@ int main(int argc, const char * argv[]) {
     [sports insertObject:@"Volleyball" atIndex:0];
     NSLog(@"%@",sports[3]);
     NSLog(@"%@",sports[0]);
+    
+    for (id sport in sports) {
+        NSLog(@"%@",sport);
+    }
     return 0;
 }
