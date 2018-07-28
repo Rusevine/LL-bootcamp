@@ -6,8 +6,8 @@
 //  Copyright © 2018 wiljay. All rights reserved.
 //
 
-#import "dog.h"
+#import "Dog.h"
 
-@implementation dog
+@implementation Dog
 
 @end

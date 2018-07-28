@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface dog : NSObject
+@interface Dog : NSObject
 
 @property NSString *name;
 

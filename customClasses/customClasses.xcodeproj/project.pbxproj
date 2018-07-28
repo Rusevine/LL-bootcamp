@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		46ED7D8A210C369D00C136B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46ED7D89210C369D00C136B2 /* main.m */; };
 		46ED7D92210C36D600C136B2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 46ED7D91210C36D600C136B2 /* Person.m */; };
-		46ED7D95210C383300C136B2 /* dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 46ED7D94210C383300C136B2 /* dog.m */; };
+		46ED7D95210C383300C136B2 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 46ED7D94210C383300C136B2 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +29,8 @@
 		46ED7D89210C369D00C136B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		46ED7D90210C36D600C136B2 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		46ED7D91210C36D600C136B2 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		46ED7D93210C383300C136B2 /* dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dog.h; sourceTree = "<group>"; };
-		46ED7D94210C383300C136B2 /* dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dog.m; sourceTree = "<group>"; };
+		46ED7D93210C383300C136B2 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		46ED7D94210C383300C136B2 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +65,8 @@
 			children = (
 				46ED7D89210C369D00C136B2 /* main.m */,
 				46ED7D90210C36D600C136B2 /* Person.h */,
-				46ED7D93210C383300C136B2 /* dog.h */,
-				46ED7D94210C383300C136B2 /* dog.m */,
+				46ED7D93210C383300C136B2 /* Dog.h */,
+				46ED7D94210C383300C136B2 /* Dog.m */,
 				46ED7D91210C36D600C136B2 /* Person.m */,
 			);
 			path = customClasses;
@@ -128,7 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46ED7D95210C383300C136B2 /* dog.m in Sources */,
+				46ED7D95210C383300C136B2 /* Dog.m in Sources */,
 				46ED7D92210C36D600C136B2 /* Person.m in Sources */,
 				46ED7D8A210C369D00C136B2 /* main.m in Sources */,
 			);
