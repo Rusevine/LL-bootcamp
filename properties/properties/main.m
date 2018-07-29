@@ -16,7 +16,7 @@ int main(int argc, const char * argv[]) {
     NSLog(@"a is %@", a);
     
    // [a setValue:@"Washing Machine" forKey:@"productName"];
-    [a setVoltage:240];
+    [a setValue:[NSNumber numberWithInt:240] forKey:@"voltage"];
     
     NSLog(@"a is %@", a);
    // NSLog(@"a is %@", [a valueForKey:@"productName"]);

@@ -41,15 +41,16 @@
 {
     return productName;
 }
-
+*/
 - (void)setVoltage:(int)x
 {
+    NSLog(@"Setting voltage to %d", x);
     voltage = x;
 }
 
 - (int)voltage
 {
     return voltage;
-}*/
+}
 
 @end
