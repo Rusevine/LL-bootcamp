@@ -10,12 +10,15 @@
 
 @interface Appliance : NSObject
 {
-   // NSString *productName;
-   // int voltage;
+   NSString *productName;
+   int voltage;
 }
 
-@property (copy, nonatomic) NSString *productName;
+//@property (copy, nonatomic) NSString *productName;
 @property (nonatomic) int voltage;
+
+//Designated initializer
+- (id) initWithProductName: (NSString *)pn;
 
 - (void)setProductName:(NSString *)s;
 - (NSString *)productName;

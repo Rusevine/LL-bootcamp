@@ -15,11 +15,11 @@ int main(int argc, const char * argv[]) {
     
     NSLog(@"a is %@", a);
     
-    [a setValue:@"Washing Machine" forKey:@"productName"];
+   // [a setValue:@"Washing Machine" forKey:@"productName"];
     [a setVoltage:240];
     
     NSLog(@"a is %@", a);
-    NSLog(@"a is %@", [a valueForKey:@"productName"]);
+   // NSLog(@"a is %@", [a valueForKey:@"productName"]);
     
     
     return 0;
