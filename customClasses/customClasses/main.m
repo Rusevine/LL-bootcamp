@@ -11,16 +11,16 @@
 #import "Dog.h"
 
 int main(int argc, const char * argv[]) {
-    Person *person1 = [[Person alloc] init];
+    
     Dog *dog1 = [[Dog alloc] init];
     Dog *dog2 = [[Dog alloc] init];
     
-    person1.name = @"Wiljay";
+    
     dog1.name = @"Teddy";
     dog2.name = @"Coco";
     
-    person1.pet = dog1;
-    person1.pet = dog2;
+    Person *person1 = [[Person alloc]initWithName:@"Wiljay" andPet:dog1];
+    
     
     NSLog(@"%@", person1.name);
     NSLog(@"%@", person1.pet.name);

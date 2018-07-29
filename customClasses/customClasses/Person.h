@@ -11,7 +11,9 @@
 
 @interface Person : NSObject
 
-@property NSString *name;
-@property Dog *pet;
+@property (nonatomic) NSString *name;
+@property (nonatomic) Dog *pet;
+
+-(id)initWithName: (NSString *)name andPet:(Dog *)pet;
 
 @end
