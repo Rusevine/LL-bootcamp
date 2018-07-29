@@ -10,4 +10,11 @@
 
 @implementation BNRPerson
 
+- (void) setEyeColor:(NSString *)eyeColor{
+    _eyeColor = eyeColor;
+}
+- (NSString *) eyeColor{
+    return _eyeColor;
+}
+
 @end

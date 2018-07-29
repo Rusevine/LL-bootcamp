@@ -9,5 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface BNRPerson : NSObject
-
+{
+    NSString *_eyeColor;
+}
+- (void) setEyeColor:(NSString *)eyeColor;
+- (NSString *) eyeColor;
 @end
