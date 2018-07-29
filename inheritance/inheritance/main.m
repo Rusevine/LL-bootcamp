@@ -7,11 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Vehicle.h"
+#import "Train.h"
 
 int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
-    }
+    
+    Train *train1 = [[Train alloc] init];
+    
+    train1.currentSpeed = 150;
+    [train1 makeNoise];
+    NSLog(@"%@",train1.description);
+    
     return 0;
 }
