@@ -26,6 +26,7 @@
     if (self) {
         _name = name;
         _pet = pet;
+        _dateOfBirth = [NSDate date];
     }
     return self;
 }

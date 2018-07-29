@@ -24,7 +24,9 @@ int main(int argc, const char * argv[]) {
     
     NSLog(@"%@", person1.name);
     NSLog(@"%@", person1.pet.name);
+    NSLog(@"%@", person1.dateOfBirth);
     [person1.pet speak];
+    
     
     return 0;
 }

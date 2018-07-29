@@ -13,6 +13,7 @@
 
 @property (nonatomic) NSString *name;
 @property (nonatomic) Dog *pet;
+@property (readonly) NSDate *dateOfBirth;
 
 -(id)initWithName: (NSString *)name andPet:(Dog *)pet;
 
